@@ -1,0 +1,39 @@
+.skills {
+  padding: 5rem 2rem;
+}
+
+.skills__container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.skills__heading {
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+.skills__eyebrow {
+  margin-bottom: 0.75rem;
+
+  color: var(--color-accent);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.skills__heading h2 {
+  margin-bottom: 1rem;
+}
+
+.skills__heading > p:last-child {
+  color: var(--color-muted);
+  line-height: 1.7;
+}
+
+.skills__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}

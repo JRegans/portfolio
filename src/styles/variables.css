@@ -1,0 +1,38 @@
+:root {
+/* ===== Colors ===== */
+
+--color-background: #0b1120;
+--color-surface: #1e293b;
+
+--color-text: #f8fafc;
+--color-text-muted: #cbd5e1;
+
+--color-accent: #c9a227;
+--color-border: #475569;
+
+/* ===== Typography ===== */
+
+--font-heading: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+--font-body: "Inter", "Sagoe UI", sans-serif;
+--font-code: "Consolas", "Courier New", monospace;
+
+/* ===== Spacing ===== */
+
+--spacing-sm: 0.5rem;
+--spacing-md: 1rem;
+--spacing-lg: 2rem;
+--spacing-xl: 4rem;
+
+/* ===== Border Radius ===== */
+--radius-md: 12px;
+
+/* ===== Shadows ===== */
+
+--shadow-md: 0 8px 24px rgba(0,0,0,0.25);
+
+/* ===== Animation ===== */
+
+--transition-fast: 0.2s ease;
+--transition-normal: 0.3s ease;
+
+}

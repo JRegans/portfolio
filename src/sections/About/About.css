@@ -1,0 +1,40 @@
+.about {
+  padding: 5rem 2rem;
+  background-color: var(--color-surface);
+}
+
+.about__container {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 4rem;
+
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.about__eyebrow {
+  margin-bottom: 0.75rem;
+
+  color: var(--color-accent);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.about__heading h2 {
+  max-width: 18ch;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.about__content p {
+  max-width: 65ch;
+  color: var(--color-muted);
+  line-height: 1.7;
+}

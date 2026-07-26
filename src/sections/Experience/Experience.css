@@ -1,0 +1,40 @@
+.experience {
+  padding: 5rem 2rem;
+  background-color: var(--color-background);
+}
+
+.experience__container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.experience__heading {
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+.experience__eyebrow {
+  margin-bottom: 0.75rem;
+
+  color: var(--color-accent);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.experience__heading h2 {
+  margin-bottom: 1rem;
+}
+
+.experience__heading > p:last-child {
+  color: var(--color-muted);
+  line-height: 1.7;
+}
+
+.experience__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
