@@ -8,8 +8,7 @@ function Contact() {
         <h2>Let's Connect</h2>
 
         <p className="section-description">
-          I'm currently seeking opportunities in Tier II IT Support,
-          Systems Administration, and Entry-Level Cybersecurity.
+          I'm passionate about growing as an IT and Security professional, building deeper expertise in Tier II IT Support, Systems Administration, and Cybersecurity through real-world experience, continuous learning, and hands-on projects. Let's connect!
         </p>
 
         <div className="contact-links">
