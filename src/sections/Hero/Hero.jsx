@@ -15,7 +15,13 @@ function Hero({name, title, introduction}) {
                 <div className="hero__actions">
                     <Button href="#contact" variant="primary">Contact Me</Button>
 
-                    <Button href="/resume.pdf" variant="secondary">View Resume</Button>
+                    <Button
+                            href={`${import.meta.env.BASE_URL}Resume.pdf`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+>
+                            Resume
+                    </Button>
                 </div>
             </div>
 
